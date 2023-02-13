@@ -1,0 +1,7 @@
+/* css - cascading style sheets (каскадна таблиця стилів) */
+
+div {
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+}

@@ -1,0 +1,32 @@
+/* Стилі при отриманні фокусу */
+input:focus {
+  background-color: black;
+  color: white;
+}
+
+/* Стилі при наведенні мишою */
+button:hover {
+  background-color: bisque;
+  border-color: red;
+}
+
+/* Стилі при натисканні */
+button:active {
+  border-color: rgb(177, 151, 255);
+  background-color: rgb(63, 17, 202);
+  color: white;
+}
+
+table {
+  border: 1px solid black;
+}
+
+/* Стилізація кожного другого елементів */
+.t-one tr:nth-child(even) {
+  background-color: #bbb;
+}
+
+/* Стилізація першого і останнього елементу */
+.t-two tr:first-child, .t-two tr:last-child {
+  background-color: #bbb;
+}

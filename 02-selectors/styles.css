@@ -1,0 +1,94 @@
+/* Вага селекторів */
+
+/* Селектор тегу (1 point) */
+div {
+  width: 100px;
+  height: 100px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  background-color: red;
+}
+
+/* Селектор классу (10 points) */
+.blueBlock {
+  background-color: blue;
+}
+
+/* Селектор id (100 points) */
+#yellowBlock {
+  background-color: yellow;
+}
+
+/* inline styles (1000 points) */
+
+
+
+
+
+/* Порядок стилів */
+.order {
+  border: 10px solid black;
+  border: 20px solid black;
+  border: 30px solid black;
+}
+
+
+
+
+
+/* Шлях та вкладеність */
+
+.parent {
+  width: 300px;
+  height: 300px;
+}
+
+.children {
+  width: 200px;
+  height: 200px;
+  background-color: blue;
+}
+
+/* .coralBlock {
+  background-color: coral;
+} */
+
+/* 10 + 10 + 10  */
+/* .parent .children .coralBlock {
+  background-color: darkblue;
+} */
+
+/* 10 + 10 */
+/* .children .coralBlock {
+  background-color: black;
+} */
+
+
+
+
+
+
+/* Групування селекторів */
+h1, h2, h3, h4 {
+  color: rgb(0, 255, 0);
+  margin: 0;
+}
+
+
+
+
+
+/* !important styles */
+.important {
+  background-color: black !important;
+  background-color: red;
+}
+
+
+
+
+
+/* Універсальний селектор */
+/* * {
+  border: 2px solid black;
+} */
