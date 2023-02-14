@@ -1,0 +1,52 @@
+header {
+  font-size: 16px;
+}
+
+h1 {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-align: center;
+  color: black;
+  font-size: 2em;
+  font-style: italic;
+  font-weight: 900;
+  /* text-decoration: line-through; */
+}
+
+p {
+  text-align: justify;
+}
+
+
+/*  */
+
+/* https://tpverstak.ru/flex-cheatsheet/ */
+section {
+  display: flex;
+}
+
+section div {
+  height: 200px;
+  width: 200px;
+  margin: 10px;
+  box-sizing: border-box;
+  overflow: auto;
+}
+
+.fit-block {
+  background: lightblue;
+  padding: 40px;
+}
+
+.gradient-block {
+  background: linear-gradient(180deg, #c5ffd9 5%, #f89130 50%, #1d3e9c 95%);
+
+}
+
+.transition-block {
+  background-color: yellow;
+  transition: background-color 1s;
+}
+
+.transition-block:hover {
+  background-color: black;
+}

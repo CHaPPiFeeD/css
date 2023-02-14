@@ -24,7 +24,7 @@ table {
 }
 
 /* Стилізація кожного другого елементів */
-.t-one tr:nth-child(even) {
+.t-one tr:nth-child(3n) {
   background-color: #bbb;
 }
 
