@@ -17,6 +17,8 @@ button:active {
   color: white;
 }
 
+
+
 table {
   border: 1px solid black;
 }
@@ -29,4 +31,16 @@ table {
 /* Стилізація першого і останнього елементу */
 .t-two tr:first-child, .t-two tr:last-child {
   background-color: #bbb;
+}
+
+
+
+/* Наслідування */
+
+h3 {
+  color: darkgreen;
+}
+
+body {
+  color: limegreen;
 }

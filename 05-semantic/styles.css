@@ -1,0 +1,44 @@
+.main-header {
+  border: 1px solid black;
+}
+
+h1 {
+  text-align: center;
+}
+
+.wrapper {
+  display: flex;
+  padding-top: 8px;
+  width: 100%;
+}
+
+nav {
+  min-width: 160px;
+  border: 1px solid black;
+  height: min-content;
+}
+
+article {
+  margin: 0 8px;
+  width: 100%;
+  border: 1px solid black;
+  padding: 8px;
+}
+
+aside {
+  min-width: 320px;
+  border: 1px solid black;
+  padding: 8px;
+  height: min-content;
+}
+
+aside div {
+  background-color: lightcoral;
+  padding: 8px;
+  margin: 8px 0;
+}
+
+footer {
+  border: 1px solid black;
+  margin-top: 8px;
+}
